@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://stupide-ai.onrender.com'
+    const response = await fetch('https://stupide-ai00.onrender.com'
     , {
         method: 'POST',
         headers: {
